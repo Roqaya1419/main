@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> To Do List</title>
+        <link rel="stylesheet" href="ToDo_style.css">
+    </head>
+    <body>
+       
+        <div class="background">
+        </div>
+        <div class="box1">
+            <img id="Bg_img" src="Bgcolor.jpg" alt="background img"/>
+            <p id="Text">To Do List</p>
+            <p id="Positive_T">Those times when you get up early andd work hard.Those times when you saty up late and work hard.
+                Those times when you don't feel like working, you are too tired, you don't want to push yourself, but you it anyway... 
+            <b>This is actully the dream</b>
+            it is not the destination,it is the journy.
+            </p>
+
+        </div>
+        <div class="list">
+            <h2>Daily list</h2>
+            <div class="daily_list">
+            <form id="form">
+                <input type="text" class="input" id="input" placeholder="Enter your todo" autocomplete="off">
+                <ul class="todos" id="todos"></ul>
+            </form>
+            </div>
+        </div>
+
+
+        <div class="list2">
+            <h2>Positive Quotes</h2>
+            <div class="weekly_list">
+                <p>Click the button below to read a positive quote</p>
+                <button class="q_btn" onclick="alert('Stop waiting for FRIDAY,Happiness is achieved when you stop waiting for it and make the most of the moment you are in now')">
+                    + Energy</button>
+            </div>
+        </div>
+
+
+        <div class="list3">
+            <h2>My Goals</h2>
+            <div class="weekly_list">
+                <p>Click the button to read my goals</p>
+                
+                <br>
+                <button class="goal_btn" onclick="myFunction(this)">Become a UX/UI designer</button>
+                
+                </div>
+            </div>
+        
+        <script src="ToDo.js"></script>
+    </body>
+</html>
